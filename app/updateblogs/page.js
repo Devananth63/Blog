@@ -1,9 +1,10 @@
-import EditBlogForm from '../../Components/EditBlogForm'; // Corrected import path
+import { Suspense } from 'react'; // Optional, use only if you want to add suspense boundary
+import EditBlogForm from '../../Components/EditBlogForm';  // Correct path
 
 export default function UpdateBlogPage() {
   return (
-    <div>
+    <Suspense fallback={<div>Loading...</div>}>
       <EditBlogForm />
-    </div>
+    </Suspense>
   );
 }
