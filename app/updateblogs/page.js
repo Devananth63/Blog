@@ -1,4 +1,4 @@
-import EditBlogForm from '../../components/EditBlogForm'; // Corrected import path
+import EditBlogForm from '../../Components/EditBlogForm'; // Corrected import path
 
 export default function UpdateBlogPage() {
   return (
