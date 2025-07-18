@@ -3,7 +3,8 @@
 import { useEffect, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import staticBlogs from '../blog/data/blog';
-import './updateblogs.css';
+import '../updateblogs.css';  // Correct path to CSS file
+
 
 export default function EditBlogForm() {
   const router = useRouter();
